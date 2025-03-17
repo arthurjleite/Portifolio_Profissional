@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: aqua;
+    color: black;
+}
+
+h1 {
+    font-family: Times, serif;
+    text-align: center;
+    color: white;
+}
+-------------------------------------
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizando o header */
+header {
+    position: fixed;  /* Fixa o header no topo da página */
+    top: 0;           /* Alinha ao topo */
+    left: 0;          /* Alinha à esquerda */
+    width: 100%;      /* O cabeçalho ocupa toda a largura da página */
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: white;     /* Cor do texto */
+    padding: 1px 3px; /* Espaçamento interno do cabeçalho */
+    z-index: 1000;    /* Garante que o cabeçalho fique sobre outros elementos */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar destaque */
+}
+
+/* Estilizando o logo */
+header .logo h1 {
+    font-size: 24px;
+}
+
+/* Estilizando a navegação */
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Alinha o menu ao centro */
+    gap: 15px; /* Espaço entre os itens */
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 6px 10px;
+}
+
+header nav ul li a:hover {
+    background-color: #555; /* Cor de fundo no hover */
+    border-radius: 4px; /* Arredonda as bordas do link */
+}
+
+/* Adicionando um espaço acima do conteúdo da página */
+#resumo {
+    margin-top: 125px;  /* Adiciona o espaço para que o conteúdo não fique atrás do cabeçalho fixo */
+    padding: 20px;      /* Opcional: Adiciona um padding para dar um espaço interno */
+}
+
+#imagem {
+    margin-top: -30px;
+    text-align: center;
+
+}
+
+#imagem img {
+    width: 100%; /* Ajuste conforme necessário */
+    max-width: 300px; /* Define um limite máximo para evitar que fique muito grande */
+    height: auto; /* Mantém a proporção original */
+    display: block; /* Garante que respeite margens automáticas */
+    margin: 20px auto; /* Centraliza a imagem */
+    border-radius: 10px; /* Opcional: arredonda as bordas */
+}
+
