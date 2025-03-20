@@ -1,0 +1,18 @@
+
+SENHAS LABS
+
+SQL Server
+Login: sa
+Senha: sqllabs
+
+MySQL
+Login: root
+Senha: sqllabs
+
+PostgreSQL
+Login: postgres
+Senha: sqllabs
+
+Linux (Maquina Virtual)
+Login: uniesp
+senha: 123
